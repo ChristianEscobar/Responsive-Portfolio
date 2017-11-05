@@ -1,0 +1,345 @@
+
+body {
+    height: 100%
+    margin: 0;
+	background-image: url("../images/textured_paper_@2X.png");
+}
+
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+hr {
+    border: 2px solid #dddddd;
+}
+
+.active {
+    background-color: #b8e0de;
+}
+
+.push {
+    /*height: auto;*/
+    /*margin-bottom: 90px;*/
+}
+
+.siteFooter {
+    height: 90px;
+    width: 100%;
+    background-color: grey;
+    border-top: 8px solid #4aaaa5;
+    text-align: center;
+    line-height: 90px;
+    /*position: fixed;*/
+    color: #bfbfbf;
+    left: 0;
+    bottom: 0;
+}
+
+.contentArea {
+    width: 960px;
+    height: auto;
+    min-height: 100%;
+    /*position: relative;*/
+    top: 300px;
+    left: 300px;
+    margin-top: 150px;
+    margin-left: 295px;
+    /*margin-bottom: 50px;*/
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.externalLinks {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+}
+
+.content {
+   background-color: #ffffff;
+   border: 1px solid #dddddd;
+   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+   color: #777777;
+}
+
+.sectionText {
+    line-height: 200%;
+    text-indent: 50px;
+    word-wrap: break-word;
+    text-align: left;
+}
+
+.mainHeaderSection {
+    border: 2px solid #cccccc;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 35px;
+    height: 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.navigationContainer {
+    position: absolute; 
+    width: 960px; 
+    height: auto;
+    top: 0;
+    padding: 0;
+    left: 293px;
+}
+
+.contactForm {
+    width: auto;
+    top: 150px;
+}
+
+.contactForm input[type=submit] {
+    width: 150px;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    /*border: none;*/
+    border-radius: 0;
+    cursor: pointer;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+.contactForm input[type=submit]:hover {
+    background-color: #dcefee;
+    color: #777777;
+    border: none;
+}
+
+.contactForm input[type=text], textarea {
+    width: 100%;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+
+.portfolioImage {
+    width: 200px;
+    height: 200px;
+}
+
+.tableContainer {
+    display: table;
+}
+
+.row {
+    display: table-row;
+}
+
+.left, .right {
+    display: table-cell;
+    padding: 20px;
+}
+
+.left a:hover, .right a:hover {
+    background-color: #dcefee;
+    color: #777777;
+}
+
+.portfolioLink {
+    position: absolute;
+    text-decoration: none;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-color: #4aaaa5;
+    color: white;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.portfolioLink.hangmanLink {
+    top: 450px;
+    line-height: 50px; /* for centering vertically */
+    text-align: center;
+}
+
+.portfolioLink.rpgLink {
+    top: 450px;
+    left: 596px;
+    line-height: 50px; /* for centering vertically */
+    text-align: center;
+}
+
+.portfolioLink.triviaLink {
+    top: 700px;
+    line-height: 50px; /* for centering vertically */
+    text-align: center;
+}
+
+.portfolioLink.rutgersLink {
+    top: 700px;
+    left:  596px;
+    line-height: 50px; /* for centering vertically */
+    text-align: center;
+}
+
+.portfolioLink.rockPaperLink {
+    top: 940px;
+    line-height: 50px; /* for centering vertically */
+    text-align: center;
+}
+
+#sectionContent {
+    width: 568px;
+    height: auto;
+    float:left;
+    padding: 40px;
+    clear: both;
+    margin-bottom: 90px;
+}
+
+#sideBar {
+    float: right;
+    width: 240px;
+    height: 200px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+}
+
+#sideBar hr {
+    border: 1px solid #dddddd;
+    width: 93%;
+    margin-right: 0;
+}
+
+#sideBar h2 {
+    /*margin-left: 30px;*/
+    padding-left: 10px;
+}
+
+#allLinks {
+    margin-left: 30px;
+}
+
+#github {
+    background-image: url('../images/github_icon_normal.png');
+}
+
+#github:hover {
+    background-image: url('../images/github_icon_hover.png');
+}
+
+#linkedin {
+    background-image: url('../images/linkedin_icon_normal.png');
+}
+
+#linkedin:hover {
+    background-image: url('../images/linkedin_icon_hover.png');
+}
+
+#stackoverflow {
+    background-image: url('../images/stackoverflow_icon_normal.png');
+}
+
+#stackoverflow:hover {
+    background-image: url('../images/stackoverflow_icon_hover.png');
+}
+
+#myPhoto {
+    /*position: relative;*/
+    float: left;
+    padding-right: 30px;
+    margin: 0;
+    top: 0;
+}
+
+#myName {
+    float: left;
+    /*top: 0;  */
+    width: 350px;
+    height: 40px;
+    padding: 35px;
+    background-color: #4aaaa5;
+    text-align: center;
+    line-height: 2px;
+    margin-left: 0;
+}
+
+#myName h1 {
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 35px;
+}
+
+#navigation ul {
+    margin-top: 35px;
+    margin-right: 0;
+    float: right;
+}
+
+#navigation li {
+    line-height: 30px;
+    display: inline-block;
+    float: right;
+    border-right: 1px solid #dddddd;
+    margin-top: 0;
+}
+
+#navigation li a {
+    padding: 14px 16px;
+    color: #777777;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 120%;
+}
+
+#navigation li a:hover {
+    color: #a6d8d6;
+}
+
+#navigation li:first-child {
+    border-right: none;
+}
+
+#message {
+    resize: none;
+}
+
+/* Media Queries */
+@media screen and (max-width: 980px){
+
+}
+
+@media screen and (max-width: 768px){
+
+}
+
+@media screen and (max-width: 640px){
+
+}
