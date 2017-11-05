@@ -337,12 +337,12 @@ hr {
         float: none;
     }
 
-    #sectionContent {
-        width: 350px;
+    #myName {
+
     }
 
-    #sideBar {
-       margin-right: 
+    #sectionContent {
+        width: 350px;
     }
 
     .navigationContainer {
@@ -357,7 +357,35 @@ hr {
 }
 
 @media screen and (max-width: 768px) {
+    #myPhoto {
+        float: left;
+    }
 
+    #sectionContent {
+        width: 670px;
+        margin-bottom: 50px;
+    }
+
+    #sideBar {
+       float:none;
+       clear: both;
+       width: 730px;
+       margin-left: 0;
+    }
+
+    .navigationContainer {
+        left: 10px;
+        width: 760px;
+    }
+
+    .contentArea {
+        margin-left: 10px;
+        width: 795px;
+    }
+
+    .push {
+        height: 50px;
+    }
 }
 
 @media screen and (max-width: 640px) {
