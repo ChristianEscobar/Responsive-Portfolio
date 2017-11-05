@@ -332,14 +332,34 @@ hr {
 }
 
 /* Media Queries */
-@media screen and (max-width: 980px){
+@media screen and (max-width: 980px) {
+    #myPhoto {
+        float: none;
+    }
+
+    #sectionContent {
+        width: 350px;
+    }
+
+    #sideBar {
+       margin-right: 
+    }
+
+    .navigationContainer {
+        left: 100px;
+        width: 800px;
+    }
+
+    .contentArea {
+        margin-left: 100px;
+        width: 795px;
+    }
+}
+
+@media screen and (max-width: 768px) {
 
 }
 
-@media screen and (max-width: 768px){
-
-}
-
-@media screen and (max-width: 640px){
+@media screen and (max-width: 640px) {
 
 }
