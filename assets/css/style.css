@@ -389,6 +389,7 @@ hr {
 @media screen and (max-width: 768px) {
     #myPhoto {
         float: left;
+        padding-right: 20px;
     }
 
     #sectionContent {
@@ -409,7 +410,7 @@ hr {
     }
 
     .contentArea {
-        margin-left: 10px;
+        margin-left: 12px;
         width: 795px;
     }
 
@@ -427,22 +428,22 @@ hr {
 
     .portfolioLink.rpgLink {
         top: 450px;
-        left: 361px;
+        left: 363px;
     }
 
     .portfolioLink.triviaLink {
         top: 690px;
-        left: 121px;
+        left: 123px;
     }
 
     .portfolioLink.rutgersLink {
         top: 690px;
-        left: 361px;
+        left: 363px;
     }
 
     .portfolioLink.rockPaperLink {
         top: 940px;
-        left: 121px;
+        left: 123px;
     }
 }
 
