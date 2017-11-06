@@ -337,10 +337,6 @@ hr {
         float: none;
     }
 
-    #myName {
-
-    }
-
     #sectionContent {
         width: 350px;
     }
@@ -353,6 +349,42 @@ hr {
     .contentArea {
         margin-left: 100px;
         width: 795px;
+    }
+
+    .tableContainer {
+        margin-left: 50px;
+    }
+
+    .row {
+        display: row;
+    }
+
+    .left {
+        display: block;
+    }
+
+    .right {
+        display: block;
+    }
+
+    .portfolioLink.rpgLink {
+        top: 700px;
+        left: 211px;
+    }
+
+    .portfolioLink.triviaLink {
+        top: 940px;
+        left: 211px;
+    }
+
+    .portfolioLink.rutgersLink {
+        top: 1185px;
+        left: 211px;
+    }
+
+    .portfolioLink.rockPaperLink {
+        top: 1430px;
+        left: 211px;
     }
 }
 
