@@ -389,5 +389,61 @@ hr {
 }
 
 @media screen and (max-width: 640px) {
+    #myPhoto {
+        clear: both;
+    }
 
+    #myName {
+        width: 640px;
+        margin-bottom: 30px;
+        padding: 10px;
+        height: 50px;
+    }
+
+    #navigation {
+        clear: both;
+        float: none;
+        position: static;
+        margin-left: 0;
+    }
+
+    #navigation ul {
+        float: none;
+        margin-top: 90px;
+    }
+
+    #navigation li {
+        margin-right: 80px;
+    }
+
+    #navigation li a {
+        padding: 20px 20px;
+    }
+
+    .navigationContainer {
+        left: 0;
+        width: 640px;
+    }
+
+    .mainHeaderSection {
+        margin-top: 40px;
+        position: static;
+    }
+
+    .contentArea {
+        margin-top: 10px;
+        width: auto;
+    }
+
+    #sectionContent {
+        width: 530px;
+        margin-bottom: 50px;
+    }
+
+    #sideBar {
+       float:none;
+       clear: both;
+       width: 590px;
+       margin-left: 0;
+    }
 }
