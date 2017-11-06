@@ -414,6 +414,34 @@ hr {
     .push {
         height: 50px;
     }
+
+    .left {
+        display: table-cell;
+    }
+
+    .right {
+        display: table-cell;
+    }
+
+    .portfolioLink.rpgLink {
+        top: 450px;
+        left: 361px;
+    }
+
+    .portfolioLink.triviaLink {
+        top: 690px;
+        left: 121px;
+    }
+
+    .portfolioLink.rutgersLink {
+        top: 690px;
+        left: 361px;
+    }
+
+    .portfolioLink.rockPaperLink {
+        top: 940px;
+        left: 121px;
+    }
 }
 
 @media screen and (max-width: 640px) {
