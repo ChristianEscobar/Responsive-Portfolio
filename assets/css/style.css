@@ -340,21 +340,21 @@ hr {
     }
 
     #sectionContent {
-        width: 350px;
+        width: 50%;
     }
 
     .navigationContainer {
-        left: 100px;
-        width: 800px;
+        left: 10%;
+        width: 77%;
     }
 
     .contentArea {
-        margin-left: 102px;
-        width: 795px;
+        margin-left: 11%;
+        width: 82%;
     }
 
     .tableContainer {
-        margin-left: 50px;
+        margin-left: 20%;
     }
 
     .left {
@@ -366,23 +366,23 @@ hr {
     }
 
     .portfolioLink.rpgLink {
-        top: 700px;
-        left: 213px;
+        top: 79%;
+        left: 25.4%;
     }
 
     .portfolioLink.triviaLink {
-        top: 940px;
-        left: 213px;
+        top: 106%;
+        left: 25.4%;
     }
 
     .portfolioLink.rutgersLink {
-        top: 1185px;
-        left: 213px;
+        top: 134%;
+        left: 25.4%;
     }
 
     .portfolioLink.rockPaperLink {
-        top: 1430px;
-        left: 213px;
+        top: 162%;
+        left: 25.4%;
     }
 }
 
