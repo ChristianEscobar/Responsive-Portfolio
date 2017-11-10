@@ -389,33 +389,37 @@ hr {
 @media screen and (max-width: 768px) {
     #myPhoto {
         float: left;
-        padding-right: 20px;
+        padding-right: 2%;
     }
 
     #sectionContent {
-        width: 670px;
-        margin-bottom: 50px;
+        width: 84%;
+        margin-bottom: 7%;
     }
 
     #sideBar {
        float:none;
        clear: both;
-       width: 730px;
+       width: 91.5%;
        margin-left: 0;
     }
 
     .navigationContainer {
-        left: 10px;
-        width: 760px;
+        left: 1.5%;
+        width: 89.5%;
     }
 
     .contentArea {
-        margin-left: 12px;
-        width: 795px;
+        margin-left: 2%;
+        width: 100%;
     }
 
     .push {
         height: 50px;
+    }
+
+    .tableContainer {
+        margin-left: 10%;
     }
 
     .left {
@@ -427,23 +431,23 @@ hr {
     }
 
     .portfolioLink.rpgLink {
-        top: 450px;
-        left: 363px;
+        top: 51%;
+        left: 49.6%;
     }
 
     .portfolioLink.triviaLink {
         top: 690px;
-        left: 123px;
+        left: 18.4%;
     }
 
     .portfolioLink.rutgersLink {
-        top: 690px;
-        left: 363px;
+        top: 78.5%;
+        left: 49.6%
     }
 
     .portfolioLink.rockPaperLink {
-        top: 940px;
-        left: 123px;
+        top: 106.5%;
+        left: 18.4%;
     }
 }
 
